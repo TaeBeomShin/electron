@@ -136,3 +136,4 @@ backport_1081874.patch
 backport_1122684.patch
 backport_1111737.patch
 ignore_mouse_buttons_other_than_left_right_middle.patch
+use_sw_show_for_initial_state_not_shownormal.patch
