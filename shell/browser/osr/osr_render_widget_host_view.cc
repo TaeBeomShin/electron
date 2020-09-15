@@ -225,7 +225,6 @@ OffScreenRenderWidgetHostView::OffScreenRenderWidgetHostView(
 
   ResizeRootLayer(false);
   render_widget_host_->SetView(this);
-  InstallTransparency();
 
   if (content::GpuDataManager::GetInstance()->HardwareAccelerationEnabled()) {
     video_consumer_ = std::make_unique<OffScreenVideoConsumer>(
